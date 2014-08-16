@@ -1,0 +1,7 @@
+*~
+*.pyc
+*.log
+*.bak
+system/.metadata/*
+rtc/*
+mgr.py
