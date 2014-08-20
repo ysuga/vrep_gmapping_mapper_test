@@ -1,7 +1,7 @@
 MapperViewer: {description: '', git: 'https://github.com/sugarsweetrobotics/MapperViewer.git',
   hash: 117511a7134f7d8a3a65e25581baeb77f145a413}
 Mapper_gmapping: {description: '', git: 'https://github.com/ysuga/Mapper_gmapping.git',
-  hash: e2e61445e864328518b156d60d68a87c3ef6b213}
+  hash: 152cc3aa97c131ce6a6bf349ec1cec27b9f24a8b}
 MobileRobotKinematics: {description: '', git: 'https://github.com/sugarsweetrobotics/MobileRobotKinematics.git',
   hash: 2ba9960a786b11d80ca7637bb915fa48efc504b2}
 SimulationManager: {description: '', git: 'https://github.com/ogata-lab/SimulationManager.git',

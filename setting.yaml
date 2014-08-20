@@ -1,12 +1,15 @@
-application :
-  name : vrep_gmapping_mapper_test
-  BIN_DIR : bin
-  RTC_DIR : rtc
-  RTS_DIR : system
-  conf.C++ : conf/rtc_cpp.conf
-  conf.Python  : conf/rtc_py.conf
+application:
+  BIN_DIR: bin
+  RTC_DIR: rtc
+  RTS_DIR: system
+  conf.C++: conf/rtc_cpp.conf
   conf.Java: conf/rtc_java.conf
-  system : system/DefaultSystem.xml
-  console_bind : ['C++', 'Java', 'Python']
-  nameservers :
-    - localhost:2809
+  conf.Python: conf/rtc_py.conf
+  console_bind:
+  - C++
+  - Java
+  - Python
+  name: vrep_gmapping_mapper_test
+  nameservers:
+  - localhost:2809
+  system: system/DefaultSystem.xml
