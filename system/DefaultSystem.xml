@@ -3,16 +3,16 @@
     <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:ysuga_net:Simulator:SimulationManager:1.0.0" rts:instanceName="SimulationManager0" rts:isRequired="true" rts:pathUri="localhost/SimulationManager0.rtc" rtsExt:visible="true">
         <rts:ServicePorts rts:name="simulator" rtsExt:visible="true"/>
         <rts:ConfigurationSets rts:id="default">
-            <rts:ConfigurationData rts:data="localhost/VREPRTC0.rtc" rts:name="simulation_end_rtcpath"/>
+            <rts:ConfigurationData rts:data="localhost/SimulationManager0.rtc" rts:name="simulation_end_rtcpath"/>
             <rts:ConfigurationData rts:data="{Hokuyo_URG_04LX_UG01: ''}" rts:name="ranges"/>
             <rts:ConfigurationData rts:data="system/rtSystem.xml" rts:name="rtsystem"/>
             <rts:ConfigurationData rts:data="[]" rts:name="sync_rtcs"/>
             <rts:ConfigurationData rts:data="0" rts:name="simulation_times"/>
             <rts:ConfigurationData rts:data="{}" rts:name="cameras"/>
             <rts:ConfigurationData rts:data="{Pioneer_p3dx: ''}" rts:name="robots"/>
-            <rts:ConfigurationData rts:data="timespan" rts:name="simulation_end_condition"/>
+            <rts:ConfigurationData rts:data="rtc_deactivated" rts:name="simulation_end_condition"/>
             <rts:ConfigurationData rts:data="URG_TEST.ttt" rts:name="project"/>
-            <rts:ConfigurationData rts:data="false" rts:name="simulation_start_on_activated"/>
+            <rts:ConfigurationData rts:data="true" rts:name="simulation_start_on_activated"/>
             <rts:ConfigurationData rts:data="10.0" rts:name="simulation_end_timespan"/>
             <rts:ConfigurationData rts:data="localhost:2809/SimulationManager0.rtc" rts:name="fullpath_to_self"/>
         </rts:ConfigurationSets>
